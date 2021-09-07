@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "src.test.java" parallel = "methods" thread-count = "1">
+
+    <test name = "Sample Tests1">
+        <groups>
+            <run>
+
+                <include name="Sanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "TestNg.Testng"/>
+        </classes>
+    </test>
+</suite>

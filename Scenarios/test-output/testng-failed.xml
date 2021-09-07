@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [src.test.java]" parallel="methods">
+  <test thread-count="4" name="Sample Tests1(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="Regression"/>
+        <include name="Smoke"/>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNg.Testng">
+        <methods>
+          <include name="scenario4_call"/>
+          <include name="scenario1_call"/>
+        </methods>
+      </class> <!-- TestNg.Testng -->
+    </classes>
+  </test> <!-- Sample Tests1(failed) -->
+</suite> <!-- Failed suite [src.test.java] -->

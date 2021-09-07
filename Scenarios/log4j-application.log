@@ -1,0 +1,10 @@
+2021-09-01 12:51:32,936  INFO [TestNG-test=Sample Tests1-1] Listener:39 - scenario3_call Test case started
+2021-09-01 12:51:40,021  INFO [TestNG-test=Sample Tests1-1] Scenario3:55 - Display Button Clicked Successfully
+2021-09-01 12:51:40,087  INFO [TestNG-test=Sample Tests1-1] Scenario3:63 - Closed Scenario3  window
+2021-09-01 12:51:40,087  INFO [TestNG-test=Sample Tests1-1] Listener:47 - scenario3_call Test case passed
+2021-09-01 12:51:40,400  INFO [main] Listener:17 - Sample Tests1 Test case finished
+2021-09-01 12:52:23,044  INFO [TestNG-test=Sample Tests1-1] Listener:39 - scenario4_call Test case started
+2021-09-01 12:52:28,660  INFO [TestNG-test=Sample Tests1-1] Scenario2:40 - pointer is moved away from the view panel
+2021-09-01 12:52:30,697  INFO [TestNG-test=Sample Tests1-1] Scenario2:45 - close tab clicked
+2021-09-01 12:52:30,729 ERROR [TestNG-test=Sample Tests1-1] Listener:26 - scenario4_call Test case failed
+2021-09-01 12:52:30,914  INFO [main] Listener:17 - Sample Tests1 Test case finished
